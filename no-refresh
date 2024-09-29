@@ -1,0 +1,11 @@
+<form action="">
+    <input type="text">
+    <button type="submit" onclick="def(event)"> click </button>
+</form>
+
+<script>
+    function def()
+    {
+        event.preventDefault()
+    }
+</script>
